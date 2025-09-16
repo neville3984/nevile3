@@ -1,46 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f9;
-  color: #333;
-}
 
-header {
-  background: #4a90e2;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-table {
-  width: 90%;
-  margin: 2rem auto;
-  border-collapse: collapse;
-  background: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 12px;
-  text-align: center;
-}
-
-th {
-  background: #4a90e2;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background: #f9f9f9;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #eee;
-  margin-top: 2rem;
 }<!DOCTYPE html>
 <html lang="en">
 <head>
