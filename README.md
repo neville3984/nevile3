@@ -43,20 +43,7 @@ const timetableData = [
   { time: "10:00 - 11:00", monday: "Break", tuesday: "Break", wednesday: "Break", thursday: "Break", friday: "Break" },
   { time: "11:00 - 12:00", monday: "Physics", tuesday: "Biology", wednesday: "Math", thursday: "English", friday: "Geography" },
   { time: "12:00 - 01:00", monday: "Chemistry", tuesday: "Geography", wednesday: "English", thursday: "History", friday: "Math" }
-];
 
-// Render timetable
-const tableBody = document.querySelector("#timetable tbody");
-
-timetableData.forEach(row => {
-  const tr = document.createElement("tr");
-
-  tr.innerHTML = `
-    <td>${row.time}</td>
-    <td>${row.monday}</td>
-    <td>${row.tuesday}</td>
-    <td>${row.wednesday}</td>
-    <td>${row.thursday}</td>
     <td>${row.friday}</td>
   `;
 
